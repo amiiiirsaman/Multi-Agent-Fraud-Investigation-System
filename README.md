@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS_Bedrock-Claude_3.5-FF9900?logo=amazonaws&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_Bedrock-Nova_Pro-FF9900?logo=amazonaws&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 **A production-grade AI system for real-time fraud detection using Multi-Agent Architecture, Graph Neural Networks, and 3D Network Visualization**
@@ -104,7 +104,7 @@ This system demonstrates an enterprise-grade fraud investigation platform that c
 
 - Python 3.10+
 - Node.js 18+
-- AWS Account with Bedrock access (Claude 3.5 Sonnet enabled)
+- AWS Account with Bedrock access (Amazon Nova Pro enabled)
 - AWS CLI configured with credentials
 
 ### Backend Setup
@@ -151,7 +151,7 @@ Open **http://localhost:5173** to view the application.
 |------------|---------|
 | **FastAPI** | High-performance async web framework |
 | **LangGraph** | Multi-agent workflow orchestration |
-| **AWS Bedrock** | Claude 3.5 Sonnet for AI reasoning |
+| **AWS Bedrock** | Amazon Nova Pro for AI reasoning |
 | **PyTorch Geometric** | Graph Neural Network implementation |
 | **WebSocket** | Real-time bidirectional communication |
 | **Pydantic** | Data validation and serialization |
@@ -225,7 +225,7 @@ AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 
 # Bedrock Model
-BEDROCK_MODEL_ID=anthropic.claude-3-5-sonnet-20241022-v2:0
+BEDROCK_MODEL_ID=amazon.nova-pro-v1:0
 
 # Optional: LangFuse Observability
 LANGFUSE_PUBLIC_KEY=pk_...
