@@ -341,8 +341,6 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 <div align="center">
 
-**Built with ❤️ for demonstrating AI Director-level technical capabilities**
-
 *Multi-Agent Systems • Graph Neural Networks • Real-time AI • Explainable Decisions*
 
 </div>
